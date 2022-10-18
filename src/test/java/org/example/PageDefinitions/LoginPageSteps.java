@@ -4,17 +4,15 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.PageActions.LoginPageActions;
-import org.example.PageElements.LoginPageElements;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPageSteps {
      WebDriver driver;
      LoginPageActions loginPageActions;
 
-    public LoginPageSteps(CommonSteps commonSteps) {
+    public LoginPageSteps(CommonSteps commonSteps , LoginPageActions loginPageActions) {
         this.driver = commonSteps.getDriver();
-        this.loginPageActions = new LoginPageActions(driver);
+        this.loginPageActions = loginPageActions;
     }
 
     @Given("When i entered url i am on login page")
@@ -29,7 +27,7 @@ public class LoginPageSteps {
     }
     @Then("I should Successfully logged in")
     public void i_should_successfully_logged_in() {
-        System.out.println("successfull");
+        System.out.println("successfully");
 
     }
 

@@ -1,6 +1,7 @@
 package org.example.PageActions;
 
 import org.example.PageDefinitions.CommonSteps;
+//import org.example.PageElements.LoginPageElements;
 import org.example.PageElements.LoginPageElements;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -11,16 +12,16 @@ public class LoginPageActions {
 
     LoginPageElements loginPageElements;
 
-    public void LoginActions(CommonSteps commonSteps){
+    public void LoginActions(CommonSteps commonSteps , LoginPageElements loginPageElements){
         this.driver = commonSteps.getDriver();
-        this.loginPageElements = new LoginPageElements(driver);
+        this.loginPageElements =  loginPageElements;
     }
 
     public void Username(String username){
-        loginPageElements.username.sendKeys("mngr448836");
+        loginPageElements.username.sendKeys(username);
     }
     public void Password(String password){
-        loginPageElements.Password.sendKeys("Yvavehu");
+        loginPageElements.Password.sendKeys(password);
     }
 
     public void loginButton(){
