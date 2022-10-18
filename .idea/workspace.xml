@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5d52895b-4457-4a00-8a9d-962c90b44e08" name="Changes" comment="" />
+=======
+    <list default="true" id="5d52895b-4457-4a00-8a9d-962c90b44e08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestRunner/TestRunner2.java" afterDir="false" />
+    </list>
+>>>>>>> 866b8b70d16d5b05e15073e49c528ab3986e689b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
