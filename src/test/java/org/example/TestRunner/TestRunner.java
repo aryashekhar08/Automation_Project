@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/LoginFeatures.feature"}
         , glue = {"org.example.PageDefinitions"}
         ,plugin = {"pretty" , "html:target/html_report.html"}
-        ,dryRun = true
+        ,dryRun = false
 
 )
 
