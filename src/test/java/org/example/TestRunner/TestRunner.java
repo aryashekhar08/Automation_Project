@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         , glue = {"org.example.PageDefinitions"}
         , tags = "@Registration"
         ,plugin = {"pretty" , "html:target/html_report.html"}
-        ,dryRun = false
+        ,dryRun = true
 
 )
 
