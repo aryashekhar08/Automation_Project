@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    HEAD &gt;
-    <list default="true" id="5d52895b-4457-4a00-8a9d-962c90b44e08" name="Changes" comment="" />
-    =======
     <list default="true" id="5d52895b-4457-4a00-8a9d-962c90b44e08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestRunner/TestRunner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PageActions/RegistrationPageActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PageDefinitions/RegistrationSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PageElements/RegistrationPageElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/RegistrationFeatures.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PageActions/LoginPageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PageActions/LoginPageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestRunner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginFeatures.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/LoginFeatures.feature" afterDir="false" />
     </list>
-    &gt;&gt;&gt;&gt;&gt;&gt;&gt; 866b8b70d16d5b05e15073e49c528ab3986e689b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +32,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2GIMVz6972yM3sug3cXC7qbApBC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -56,6 +63,25 @@
       <module name="Automation_Project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: LoginFeatures" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: RegistrationFeatures" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/RegistrationFeatures.feature" />
+      <option name="GLUE" value="org.example.PageDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Automation_Project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: RegistrationFeatures" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -109,6 +135,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: RegistrationFeatures" />
       <item itemvalue="Cucumber Java.Feature: LoginFeatures" />
       <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="Maven.Automation_Project [clean,install]" />
@@ -116,6 +143,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: RegistrationFeatures" />
         <item itemvalue="Cucumber Java.Feature: LoginFeatures" />
       </list>
     </recent_temporary>
